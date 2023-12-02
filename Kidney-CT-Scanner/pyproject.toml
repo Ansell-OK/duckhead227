@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "kidney-scanner"
+version = "0.1.0"
+description = "Scans kidney for errors"
+authors = ["Ike-Okafor Solumgolie <isolumgolie@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6,<=3.9.0"
+streamlit = ">=1.29.0"
+tensorflow = ">=1.15.4,<2.15.0"
