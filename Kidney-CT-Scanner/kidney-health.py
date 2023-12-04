@@ -53,4 +53,6 @@ if submit:
             st.title("You're all good, Kidney Status is Normal")
         else:
             st.title(str("Need to get yourself check out, Your kidney has a "+CLASS_NAMES[np.argmax(Y_pred)]))
-            
+
+
+display.stop()
