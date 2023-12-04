@@ -1,3 +1,9 @@
+from pyvirtualdisplay import Display
+
+display = Display(visible=0, size=(1, 1))
+display.start()
+
+
 import streamlit as st 
 import tensorflow as tf 
 import numpy as np 
