@@ -1,9 +1,3 @@
-from pyvirtualdisplay import Display
-
-display = Display(visible=0, size=(1, 1))
-display.start()
-
-
 import streamlit as st 
 import tensorflow as tf 
 import numpy as np 
@@ -54,5 +48,3 @@ if submit:
         else:
             st.title(str("Need to get yourself check out, Your kidney has a "+CLASS_NAMES[np.argmax(Y_pred)]))
 
-
-display.stop()
